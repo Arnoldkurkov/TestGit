@@ -7,6 +7,7 @@ namespace TestGit
     [Activity(Label = "TestGit", MainLauncher = true)]
     public class MainActivity : Activity
     {
+        private string d = "dd";
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
